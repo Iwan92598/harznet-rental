@@ -6,15 +6,44 @@
 	</button>
 
 	<div class="collapse navbar-collapse" id="ftco-nav">
-	<ul class="navbar-nav ml-auto">
-		<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-		<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-		<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-		<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-		<li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li>
-		<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-		<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	</ul>
+		<ul class="navbar-nav ml-auto">
+    <li class="nav-item <?= uri_string() == '/' ? 'active' : '' ?>">
+        <a href="<?= base_url('/') ?>" class="nav-link">Home</a>
+    </li>
+
+    <li class="nav-item <?= uri_string() == 'about' ? 'active' : '' ?>">
+        <a href="<?= base_url('about') ?>" class="nav-link">About</a>
+    </li>
+
+    <li class="nav-item <?= uri_string() == 'services' ? 'active' : '' ?>">
+        <a href="<?= base_url('services') ?>" class="nav-link">Services</a>
+    </li>
+
+    <li class="nav-item <?= uri_string() == 'pricing' ? 'active' : '' ?>">
+        <a href="<?= base_url('pricing') ?>" class="nav-link">Pricing</a>
+    </li>
+
+    <li class="nav-item <?= uri_string() == 'cars' ? 'active' : '' ?>">
+        <a href="<?= base_url('cars') ?>" class="nav-link">Cars</a>
+    </li>
+
+    <li class="nav-item <?= uri_string() == 'blog' ? 'active' : '' ?>">
+        <a href="<?= base_url('blog') ?>" class="nav-link">Blog</a>
+    </li>
+
+    <li class="nav-item <?= uri_string() == 'contact' ? 'active' : '' ?>">
+        <a href="<?= base_url('contact') ?>" class="nav-link">Contact</a>
+    </li>
+</ul>
+	<!-- <ul class="navbar-nav ml-auto">
+		<li class="nav-item"><a href="<?= base_url('/') ?>" class="nav-link">Home</a></li>
+		<li class="nav-item"><a href="<?= base_url('about') ?>" class="nav-link">About</a></li>
+		<li class="nav-item"><a href="<?= base_url('services') ?>" class="nav-link">Services</a></li>
+		<li class="nav-item"><a href="<?= base_url('pricing') ?>" class="nav-link">Pricing</a></li>
+		<li class="nav-item"><a href="<?= base_url('cars') ?>" class="nav-link">Cars</a></li>
+		<li class="nav-item"><a href="<?= base_url('blog') ?>" class="nav-link">Blog</a></li>
+		<li class="nav-item"><a href="<?= base_url('contact') ?>" class="nav-link">Contact</a></li>
+	</ul> -->
 	</div>
 </div>
 </nav>

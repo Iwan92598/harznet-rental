@@ -6,7 +6,7 @@ class Pages extends BaseController
 {
     public function index(): string
     {
-        return view('home');
+        return view('home2');
         // echo 'hello world';
 
         // echo view(layouts/header);
