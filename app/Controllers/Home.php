@@ -9,8 +9,11 @@ class Home extends BaseController
 
     {
         // return view('home');
+        $data = [
+            'title' => 'Home | Harznet Rental',
+        ];
 
-        echo view('layouts/header');
+        echo view('layouts/header', $data);
         echo view('layouts/navbar');
         echo view('home');
         echo view('layouts/footer');
@@ -28,7 +31,10 @@ class Home extends BaseController
 
         public function about()
     {
-        echo view('layouts/header');
+        $data = [
+            'title' => 'About | Harznet Rental',
+        ];
+        echo view('layouts/header', $data);
         echo view('layouts/navbar');
         echo view('about');
         echo view('layouts/footer');
@@ -37,16 +43,22 @@ class Home extends BaseController
 
     public function services()
     {
-        echo view('layouts/header');
-        echo view('layouts/navbar');
-        echo view('services');
+        $data = [
+            'title' => 'Services | Harznet Rental',
+        ];
+        echo view('layouts/header', $data);
+        echo view('layouts/navbar',);
+        echo view('services',);
         echo view('layouts/footer');
         echo view ('layouts/foot');
     }
 
     public function pricing()
     {
-        echo view('layouts/header');
+        $data = [
+            'title' => 'Pricing | Harznet Rental',
+        ];
+        echo view('layouts/header', $data);
         echo view('layouts/navbar');
         echo view('pricing');
         echo view('layouts/footer');
@@ -55,7 +67,10 @@ class Home extends BaseController
 
     public function cars()
     {
-        echo view('layouts/header');
+        $data = [
+            'title' => 'Cars | Harznet Rental',
+        ];
+        echo view('layouts/header', $data);
         echo view('layouts/navbar');
         echo view('cars');
         echo view('layouts/footer');
@@ -64,7 +79,10 @@ class Home extends BaseController
 
     public function blog()
     {
-        echo view('layouts/header');
+        $data = [
+            'title' => 'Blog | Harznet Rental',
+        ];
+        echo view('layouts/header', $data);
         echo view('layouts/navbar');
         echo view('blog');
         echo view('layouts/footer');
@@ -73,7 +91,10 @@ class Home extends BaseController
 
     public function contact()
     {
-        echo view('layouts/header');
+        $data = [
+            'title' => 'Contact | Harznet Rental',
+        ];
+        echo view('layouts/header', $data);
         echo view('layouts/navbar');
         echo view('contact');
         echo view('layouts/footer');
