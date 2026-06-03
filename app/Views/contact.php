@@ -1,4 +1,5 @@
-
+<?= $this->extend('layouts/templates'); ?>
+<?= $this->section('content'); ?>
     <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('<?= base_url("assets/images/bg_3.jpg") ?>');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -70,10 +71,7 @@
         </div>
       </div>
     </section>
-	
+<?= $this->endSection(); ?>
 
 
     
-  
-
-<!-- <div class="user-img mb-2" style="background-image: url('<?= base_url("assets/images/person_1.jpg") ?>')"> -->

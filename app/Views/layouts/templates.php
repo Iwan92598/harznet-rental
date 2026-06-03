@@ -1,8 +1,33 @@
-    <!-- car -->    
-    <!-- blog-single -->
-    <!-- blog -->
-    <!-- car-single -->
-    <!-- contact -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><?= $title; ?></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/open-iconic-bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/animate.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/owl.carousel.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/owl.theme.default.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/magnific-popup.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/aos.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/ionicons.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap-datepicker.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/jquery.timepicker.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/flaticon.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/icomoon.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+
+  <body>
+
+<?= $this->include('layouts/navbar'); ?>
+<?=  $this->renderSection('content'); ?>
+
+
+
+
 <!-- <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>"> -->
 <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -34,10 +59,10 @@
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Customer Support</h2>
               <ul class="list-unstyled">
-                <li><a href="<?= base_url('about') ?>" class="py-2 d-block">FAQ</a></li>
-                <li><a href="<?= base_url('payment-options') ?>" class="py-2 d-block">Opsi Pembayaran</a></li>
-                <li><a href="<?= base_url('booking-tips') ?>" class="py-2 d-block">Tips Pemesanan</a></li>
-                <li><a href="<?= base_url('how-it-works') ?>" class="py-2 d-block">Bagaimana Cara Kerjanya</a></li>
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Opsi Pembayaran</a></li>
+                <li><a href="#" class="py-2 d-block">Tips Pemesanan</a></li>
+                <li><a href="#" class="py-2 d-block">Bagaimana Cara Kerjanya</a></li>
                 <li><a href="<?= base_url('contact') ?>" class="py-2 d-block">Contact Kami</a></li>
               </ul>
             </div>
@@ -69,10 +94,29 @@
       </div>
 </footer>
 
-    <!-- contact -->
-   
-    <!-- pricing -->
+    <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-    <!-- services -->
+<script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery-migrate-3.0.1.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/popper.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.easing.1.3.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.waypoints.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.stellar.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/owl.carousel.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.magnific-popup.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/aos.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.animateNumber.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap-datepicker.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.timepicker.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/scrollax.min.js') ?>"></script>
 
-  
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=false"></script> -->
+
+<!-- <script src="<?= base_url('assets/js/google-map.js') ?>"></script> -->
+<script src="<?= base_url('assets/js/main.js') ?>"></script>
+  <!-- <script src="../../../assets/js/main.js"></script> -->
+
+  </body>
+</html>
