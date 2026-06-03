@@ -3,8 +3,8 @@
 	<div class="container">
 	<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
 		<div class="col-md-9 ftco-animate pb-5">
-		<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Cars <i class="ion-ios-arrow-forward"></i></span></p>
-		<h1 class="mb-3 bread">Choose Your Car</h1>
+		<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Mobil <i class="ion-ios-arrow-forward"></i></span></p>
+		<h1 class="mb-3 bread">Pilih Mobil anda</h1>
 		</div>
 	</div>
 	</div>
@@ -15,15 +15,15 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="car-wrap rounded ftco-animate">
-					<div class="img rounded d-flex align-items-end" style="background-image: url('<?= base_url("assets/images/car-1.jpg") ?>');">
+					<div class="img rounded d-flex align-items-end" style="background-image: url('<?= base_url("assets/images/car-1.png") ?>');">
 					</div>
 					<div class="text">
-						<h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+						<h2 class="mb-0"><a href="car-single.html">Honda Brio Merah</a></h2>
 						<div class="d-flex mb-3">
-							<span class="cat">Cheverolet</span>
+							<span class="cat">Honda</span>
 							<p class="price ml-auto">$500 <span>/day</span></p>
 						</div>
-						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Booking</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
 					</div>
 				</div>
 			</div>
@@ -32,31 +32,31 @@
 					<div class="img rounded d-flex align-items-end" style="background-image: url('<?= base_url("assets/images/car-2.jpg") ?>');">
 					</div>
 					<div class="text">
-						<h2 class="mb-0"><a href="car-single.html">Range Rover</a></h2>
+						<h2 class="mb-0"><a href="car-single.html">Honda BR-V Hitam 2024</a></h2>
 						<div class="d-flex mb-3">
-							<span class="cat">Subaru</span>
+							<span class="cat">Honda</span>
 							<p class="price ml-auto">$500 <span>/day</span></p>
 						</div>
-						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Booking</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="car-wrap rounded ftco-animate">
-					<div class="img rounded d-flex align-items-end" style="background-image: url('<?= base_url("assets/images/car-3.jpg") ?>');">
+					<div class="img rounded d-flex align-items-end" style="background-image: url('<?= base_url("assets/images/car-3.png") ?>');">
 					</div>
 					<div class="text">
-						<h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+						<h2 class="mb-0"><a href="car-single.html">Toyota Innova Reborn Putih</a></h2>
 						<div class="d-flex mb-3">
-							<span class="cat">Cheverolet</span>
+							<span class="cat">Toyota</span>
 							<p class="price ml-auto">$500 <span>/day</span></p>
 						</div>
-						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Booking</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-4">
+			<!-- <div class="col-md-4">
 				<div class="car-wrap rounded ftco-animate">
 					<div class="img rounded d-flex align-items-end" style="background-image: url('<?= base_url("assets/images/car-4.jpg") ?>');">
 					</div>
@@ -183,7 +183,7 @@
 						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		<div class="row mt-5">
 		<div class="col text-center">

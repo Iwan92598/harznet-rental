@@ -314,11 +314,35 @@
   });
 
 
-	$('#book_pick_date,#book_off_date').datepicker({
-	  'format': 'm/d/yyyy',
-	  'autoclose': true
+  	// $('#book_pick_date,#book_off_date').datepicker({
+	//   'format': 'm/d/yyyy',
+	//   'autoclose': true
+
+	// Tanggal book off date harus lebih besar dari tanggal book pick date
+  $('#book_pick_date').datepicker({
+    format: 'm/d/yyyy',
+    autoclose: true
+	}).on('changeDate', function(e) {
+		$('#book_off_date').datepicker('setStartDate', e.date);
 	});
-	$('#time_pick').timepicker();
+
+	$('#time_pick').timepicker({
+    timeFormat: 'H:i'
+	});
+
+	$('#time_off').timepicker({
+		timeFormat: 'H:i'
+	});
+	$('#time_pick').on('change', function() {
+    $('#time_off').val($(this).val());
+	});
+
+
+	// });
+	// $('#time_pick').timepicker();
+	// $('#time_pick').timepicker({
+	// 	timeFormat: 'H:i'
+	// });
 
 
 

@@ -1,4 +1,4 @@
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('<?= base_url("assets/images/bg_3.jpg") ?>');" data-stellar-background-ratio="0.5">
+<!-- <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('<?= base_url("assets/images/bg_3.jpg") ?>');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
@@ -8,9 +8,9 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="ftco-section ftco-degree-bg">
+<!-- <section class="ftco-section ftco-degree-bg">
   <div class="container">
     <div class="row">
       <div class="col-md-8 ftco-animate">
@@ -130,10 +130,11 @@
                 <p><a href="#" class="reply">Reply</a></p>
               </div>
             </li>
-          </ul>
+          </ul> -->
+
           <!-- END comment-list -->
           
-          <div class="comment-form-wrap pt-5">
+          <!-- <div class="comment-form-wrap pt-5">
             <h3 class="mb-5">Leave a comment</h3>
             <form action="#" class="p-5 bg-light">
               <div class="form-group">
@@ -159,10 +160,10 @@
 
             </form>
           </div>
-        </div>
+        </div> -->
 
-      </div> <!-- .col-md-8 -->
-      <div class="col-md-4 sidebar ftco-animate">
+      <!-- </div> .col-md-8 -->
+      <!-- <div class="col-md-4 sidebar ftco-animate">
         <div class="sidebar-box">
           <form action="#" class="search-form">
             <div class="form-group">
@@ -170,8 +171,8 @@
               <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
             </div>
           </form>
-        </div>
-        <div class="sidebar-box ftco-animate">
+        </div> -->
+        <!-- <div class="sidebar-box ftco-animate">
           <div class="categories">
             <h3>Categories</h3>
             <li><a href="#">Ferrari <span>(12)</span></a></li>
@@ -181,9 +182,9 @@
             <li><a href="#">Toyota <span>(14)</span></a></li>
             <li><a href="#">Mistsubishi <span>(140)</span></a></li>
           </div>
-        </div>
+        </div> -->
 
-        <div class="sidebar-box ftco-animate">
+        <!-- <div class="sidebar-box ftco-animate">
           <h3>Recent Blog</h3>
           <div class="block-21 mb-4 d-flex">
             <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
@@ -218,9 +219,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="sidebar-box ftco-animate">
+        <!-- <div class="sidebar-box ftco-animate">
           <h3>Tag Cloud</h3>
           <div class="tagcloud">
             <a href="#" class="tag-cloud-link">dish</a>
@@ -232,9 +233,9 @@
             <a href="#" class="tag-cloud-link">desserts</a>
             <a href="#" class="tag-cloud-link">drinks</a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="sidebar-box ftco-animate">
+        <!-- <div class="sidebar-box ftco-animate">
           <h3>Paragraph</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
         </div>
@@ -242,5 +243,8 @@
 
     </div>
   </div>
-</section> <!-- .section -->
+</section>  -->
+
+
+<!-- .section -->
 

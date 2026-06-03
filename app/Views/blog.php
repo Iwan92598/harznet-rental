@@ -15,7 +15,13 @@
     </section>
 
     <section class="ftco-section">
-      <div class="container">
+          <div class="row justify-content-center mb-5">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <h1 class="mb-3">Coming soon</h1>
+      </div>
+    </div>
+
+      <!-- <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-12 text-center d-flex ftco-animate">
           	<div class="blog-entry justify-content-end mb-md-5">
@@ -129,7 +135,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
 

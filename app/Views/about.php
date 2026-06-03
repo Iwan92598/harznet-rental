@@ -17,12 +17,14 @@
       </div>
       <div class="col-md-6 wrap-about ftco-animate">
         <div class="heading-section heading-section-white pl-md-5">
-          <span class="subheading">About us</span>
-          <h2 class="mb-4">Welcome to Carbook</h2>
+          <span class="subheading">Tentang Kami</span>
+          <h2 class="mb-4">Selamat Datang di Harznet Rental</h2>
 
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          <p><a href="#" class="btn btn-primary py-3 px-4">Search Vehicle</a></p>
+          <p>HARZNET Rental hadir sebagai solusi transportasi yang mengutamakan kenyamanan, keamanan, dan kepuasan pelanggan. Kami menyediakan layanan rental mobil yang profesional dengan berbagai pilihan kendaraan yang terawat dan siap menemani setiap perjalanan Anda, baik untuk keperluan bisnis, wisata, keluarga, maupun perjalanan dinas</p>
+          <p>Dengan komitmen memberikan pelayanan terbaik, kami memastikan setiap pelanggan mendapatkan pengalaman berkendara yang mudah, aman, dan menyenangkan. Didukung oleh tim yang berpengalaman serta armada yang selalu dalam kondisi prima, HARZNET siap menjadi mitra perjalanan terpercaya Anda.</p>
+          <p>Kami percaya bahwa setiap perjalanan memiliki cerita dan tujuan yang berharga. Oleh karena itu, kami terus berupaya menghadirkan layanan yang fleksibel, harga yang kompetitif, serta proses pemesanan yang cepat dan praktis.</p>
+          <p>Bersama HARZNET, Anda dapat menjelajahi berbagai destinasi dengan lebih leluasa, menikmati perjalanan tanpa khawatir, dan menciptakan momen-momen berkesan di setiap kilometer perjalanan.</p>
+          <p><a href="#" class="btn btn-primary py-3 px-4">Cari Kendaraan</a></p>
         </div>
       </div>
     </div>
@@ -46,8 +48,8 @@
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading">Testimonial</span>
-        <h2 class="mb-3">Happy Clients</h2>
+        <span class="subheading">Testimoni</span>
+        <h2 class="mb-3">Klien Kami</h2>
       </div>
     </div>
     <div class="row ftco-animate">

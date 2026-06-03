@@ -16,6 +16,10 @@ class Home extends BaseController
         echo view('layouts/footer');
         echo view ('layouts/foot');
 
+        // susunan home
+        // echo view('layouts/header');
+        // echo view('layouts/navbar');
+
         // echo view(layouts/header);
         // echo view(layouts/home);
         // echo view(layouts/footer);
