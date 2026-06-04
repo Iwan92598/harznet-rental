@@ -19,24 +19,33 @@ class Home extends BaseController
         public function about()
     {
         $data = [
-            'title' => 'About | Harznet Rental',
-        ];
+        'title' => 'About | Harznet Rental',
+        'page' => 'Tentang Kami',
+        'titlePage' => 'Tentang Kami',
+        'bg' => 'bg_3.jpg'
+    ];
         return view('about',$data);
     }
 
     public function services()
     {
-        $data = [
-            'title' => 'Services | Harznet Rental',
-        ];
+    $data = [
+        'title' => 'Services | Harznet Rental',
+        'page' => 'Layanan',
+        'titlePage' => 'Layanan Kami',
+        'bg' => 'bg_3.jpg'
+    ];
         return view('services',$data);
     }
 
     public function pricing()
     {
         $data = [
-            'title' => 'Pricing | Harznet Rental',
-        ];
+        'title' => 'Harga | Harznet Rental',
+        'page' => 'Harga',
+        'titlePage' => 'Harga Layanan',
+        'bg' => 'bg_3.jpg'
+    ];
         return view('pricing',$data);
     }
     private $mobil = [
@@ -82,6 +91,9 @@ class Home extends BaseController
     {
         $data = [
             'title' => 'Cars | Harznet Rental',
+            'page' => 'Mobil',
+            'titlePage' => 'Pilih Mobil Anda',
+            'bg' => 'bg_3.jpg',
             'mobil' => $this->mobil
         ];
 
@@ -109,6 +121,8 @@ class Home extends BaseController
             'mobils' => $this->mobil // semua mobil untuk rekomendasi
         ];
 
+        
+
         return view('car-single', $data);
     }
 
@@ -124,6 +138,9 @@ class Home extends BaseController
     {
         $data = [
             'title' => 'Contact | Harznet Rental',
+            'page' => 'Kontak',
+            'titlePage' => 'Hubungi Kami',
+            'bg' => 'bg_3.jpg'
         ];
         return view('contact',$data);
     }
