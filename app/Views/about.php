@@ -11,42 +11,11 @@
         </div>
       </div>
 </section>
-
-<section class="ftco-section ftco-about">
-  <div class="container">
-    <div class="row no-gutters">
-      <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url('<?= base_url("assets/images/about.jpg") ?>');">
-      </div>
-      <div class="col-md-6 wrap-about ftco-animate">
-        <div class="heading-section heading-section-white pl-md-5">
-          <span class="subheading">Tentang Kami</span>
-          <h2 class="mb-4">Selamat Datang di Harznet Rental</h2>
-
-          <p>HARZNET Rental hadir sebagai solusi transportasi yang mengutamakan kenyamanan, keamanan, dan kepuasan pelanggan. Kami menyediakan layanan rental mobil yang profesional dengan berbagai pilihan kendaraan yang terawat dan siap menemani setiap perjalanan Anda, baik untuk keperluan bisnis, wisata, keluarga, maupun perjalanan dinas</p>
-          <p>Dengan komitmen memberikan pelayanan terbaik, kami memastikan setiap pelanggan mendapatkan pengalaman berkendara yang mudah, aman, dan menyenangkan. Didukung oleh tim yang berpengalaman serta armada yang selalu dalam kondisi prima, HARZNET siap menjadi mitra perjalanan terpercaya Anda.</p>
-          <p>Kami percaya bahwa setiap perjalanan memiliki cerita dan tujuan yang berharga. Oleh karena itu, kami terus berupaya menghadirkan layanan yang fleksibel, harga yang kompetitif, serta proses pemesanan yang cepat dan praktis.</p>
-          <p>Bersama HARZNET, Anda dapat menjelajahi berbagai destinasi dengan lebih leluasa, menikmati perjalanan tanpa khawatir, dan menciptakan momen-momen berkesan di setiap kilometer perjalanan.</p>
-          <p><a href="#" class="btn btn-primary py-3 px-4">Cari Kendaraan</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="ftco-section ftco-intro" style="background-image: url('<?= base_url("assets/images/bg_3.jpg") ?>');">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row justify-content-end">
-      <div class="col-md-6 heading-section heading-section-white ftco-animate">
-        <h2 class="mb-3">Do You Want To Earn With Us? So Don't Be Late.</h2>
-        <a href="#" class="btn btn-primary btn-lg">Become A Driver</a>
-      </div>
-    </div>
-  </div>
-</section>
+<?= view('partials/about-card') ?>
+<?= view('partials/driver-card') ?>
 
 
-<section class="ftco-section testimony-section bg-light">
+<!-- <section class="ftco-section testimony-section bg-light">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-md-7 text-center heading-section ftco-animate">
@@ -156,6 +125,6 @@
       </div>
     </div>
   </div>
-</section>	
+</section>	 -->
 <?= $this->endSection(); ?>
 

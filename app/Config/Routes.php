@@ -10,6 +10,7 @@ $routes->get('pricing', 'Home::pricing');
 $routes->get('cars', 'Home::cars');
 $routes->get('blog', 'Home::blog');
 $routes->get('contact', 'Home::contact');
-$routes->get('car/detail/(:num)', 'Car::detail/$1');
+$routes->get('login', 'Home::login');
+$routes->get('cars/detail/(:num)', 'Home::detail/$1');
 
 // $routes->get('/pages', 'Pages::index');

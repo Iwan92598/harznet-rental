@@ -11,6 +11,7 @@ class Home extends BaseController
         // return view('home');
         $data = [
             'title' => 'Home | Harznet Rental',
+            'mobil' => $this->mobil
         ];
         return view('home',$data);    
     }
@@ -38,15 +39,8 @@ class Home extends BaseController
         ];
         return view('pricing',$data);
     }
-
-    public function cars()
-
-    /*
-    Data Mobil
-    public function detailMobil($id)
-{
-    $mobil = [
-        1 => [
+    private $mobil = [
+        [
             'id' => 1,
             'nama' => 'Honda Brio Merah',
             'merek' => 'Honda',
@@ -58,59 +52,64 @@ class Home extends BaseController
             'luggage' => '4 Bags',
             'mileage' => '40.000'
         ],
-        2 => [
+        [
             'id' => 2,
             'nama' => 'Toyota Avanza',
             'merek' => 'Toyota',
             'harga' => 600,
-            'gambar' => 'car-2.png',
+            'gambar' => 'car-2.jpg',
             'transmisi' => 'Automatic',
             'seat' => '7 Adults',
             'fuel' => 'Petrol',
             'luggage' => '5 Bags',
             'mileage' => '25.000'
+        ],
+        [
+            'id' => 3,
+            'nama' => 'Daihatsu Xenia',
+            'merek' => 'Daihatsu',
+            'harga' => 550,
+            'gambar' => 'car-3.png',
+            'transmisi' => 'Manual',
+            'seat' => '7 Adults',
+            'fuel' => 'Petrol',
+            'luggage' => '5 Bags',
+            'mileage' => '30.000'
         ]
     ];
 
-    $data = [
-        'title' => 'Detail Mobil',
-        'mobil' => $mobil[$id]
-    ];
-
-    return view('car-single', $data);
-}
-
-    */
-
+    public function cars()
     {
         $data = [
             'title' => 'Cars | Harznet Rental',
-            'mobil' => [
-                [
-                    'id' => 1,
-                    'nama' => 'Honda Brio Merah',
-                    'merek' => 'Honda',
-                    'harga' => 500,
-                    'gambar' => 'car-1.png'
-                ],
-                [
-                    'id' => 2,
-                    'nama' => 'Toyota Avanza',
-                    'merek' => 'Toyota',
-                    'harga' => 600,
-                    'gambar' => 'car-2.jpg'
-                ],
-                [
-                    'id' => 3,
-                    'nama' => 'Daihatsu Xenia',
-                    'merek' => 'Daihatsu',
-                    'harga' => 550,
-                    'gambar' => 'car-3.png'
-                ]
-            ]
+            'mobil' => $this->mobil
         ];
 
         return view('cars', $data);
+    }
+
+    public function detail($id)
+    {
+        $detail = null;
+
+        foreach ($this->mobil as $m) {
+            if ($m['id'] == $id) {
+                $detail = $m;
+                break;
+            }
+        }
+
+        if (!$detail) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+
+        $data = [
+            'title' => $detail['nama'],
+            'mobil' => $detail,      // mobil yang sedang dibuka
+            'mobils' => $this->mobil // semua mobil untuk rekomendasi
+        ];
+
+        return view('car-single', $data);
     }
 
     public function blog()
@@ -127,5 +126,13 @@ class Home extends BaseController
             'title' => 'Contact | Harznet Rental',
         ];
         return view('contact',$data);
+    }
+
+        public function login()
+    {
+        $data = [
+            'title' => 'Login | Harznet Rental',
+        ];
+        return view('login',$data);
     }
 }

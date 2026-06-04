@@ -34,6 +34,9 @@
     <li class="nav-item <?= uri_string() == 'contact' ? 'active' : '' ?>">
         <a href="<?= base_url('contact') ?>" class="nav-link">Kontak</a>
     </li>
+        <li class="nav-item <?= uri_string() == 'login' ? 'active' : '' ?>">
+        <a href="<?= base_url('login') ?>" class="nav-link">Masuk</a>
+    </li>
 </ul>
 	</div>
 </div>
