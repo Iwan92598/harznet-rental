@@ -51,37 +51,37 @@ class Home extends BaseController
     private $mobil = [
         [
             'id' => 1,
-            'nama' => 'Honda Brio Merah',
+            'nama' => 'Honda Brio Merah 2026',
             'merek' => 'Honda',
-            'harga' => 500,
+            'harga' => 350,
             'gambar' => 'car-1.png',
-            'transmisi' => 'Manual',
+            'transmisi' => 'Automatic',
             'seat' => '5 Adults',
-            'fuel' => 'Petrol',
+            'fuel' => 'Bensin',
             'luggage' => '4 Bags',
             'mileage' => '40.000'
         ],
         [
             'id' => 2,
-            'nama' => 'Toyota Avanza',
+            'nama' => 'Toyota Innova Reborn Putih 2026',
             'merek' => 'Toyota',
-            'harga' => 600,
+            'harga' => 650,
             'gambar' => 'car-2.jpg',
             'transmisi' => 'Automatic',
             'seat' => '7 Adults',
-            'fuel' => 'Petrol',
+            'fuel' => 'Solar',
             'luggage' => '5 Bags',
             'mileage' => '25.000'
         ],
         [
             'id' => 3,
-            'nama' => 'Daihatsu Xenia',
-            'merek' => 'Daihatsu',
-            'harga' => 550,
+            'nama' => 'Honda BR-V Hitam 2025',
+            'merek' => 'Honda',
+            'harga' => 400,
             'gambar' => 'car-3.png',
             'transmisi' => 'Manual',
             'seat' => '7 Adults',
-            'fuel' => 'Petrol',
+            'fuel' => 'Bensin',
             'luggage' => '5 Bags',
             'mileage' => '30.000'
         ]

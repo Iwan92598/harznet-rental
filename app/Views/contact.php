@@ -38,14 +38,14 @@
 			            <p><span>Phone:</span> <a href="<?='https://wa.me/085168822220' ?>" target="_blank"> 085168822220</a></p>
 			          </div>
 		          </div>
-		          <div class="col-md-12">
+		          <!-- <div class="col-md-12">
 		          	<div class="border w-100 p-4 rounded mb-2 d-flex">
 			          	<div class="icon mr-3">
 			          		<span class="icon-envelope-o"></span>
 			          	</div>
 			            <p><span>Email:</span> <a href="<?= base_url('mailto:customer_service@harznet.com') ?>" target="_blank"> customer_service@harznet.com</a></p>
 			          </div>
-		          </div>
+		          </div> -->
 		        </div>
           </div>
           <div class="col-md-8 block-9 mb-md-5">
