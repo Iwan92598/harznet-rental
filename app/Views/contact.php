@@ -35,7 +35,7 @@
 			          	<div class="icon mr-3">
 			          		<span class="icon-mobile-phone"></span>
 			          	</div>
-			            <p><span>Phone:</span> <a href="<?= base_url('https://wa.me/085168822220') ?>" target="_blank"> 085168822220</a></p>
+			            <p><span>Phone:</span> <a href="<?='https://wa.me/085168822220' ?>" target="_blank"> 085168822220</a></p>
 			          </div>
 		          </div>
 		          <div class="col-md-12">
