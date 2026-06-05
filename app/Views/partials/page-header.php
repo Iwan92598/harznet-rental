@@ -1,5 +1,5 @@
 <section class="hero-wrap hero-wrap-2 js-fullheight"
-    style="background-image: url('<?= base_url('assets/images/bg_3.jpg') ?>');"
+    style="background-image: url('<?= base_url('assets/images/car-1.png') ?>');"
     data-stellar-background-ratio="0.5">
 
     <div class="overlay"></div>

@@ -49,10 +49,10 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Jam" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">$</small> 10.99</span> 
 							        		<span class="per">/per Jam</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
@@ -60,7 +60,7 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Hari" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 60.99</span>
@@ -71,7 +71,7 @@
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Bulan" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 995.99</span>
@@ -97,7 +97,7 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Jam" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 10.99</span>
@@ -108,7 +108,7 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Hari" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 60.99</span>
@@ -119,7 +119,7 @@
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Bulan" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 995.99</span>
@@ -145,7 +145,7 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Jam" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 10.99</span>
@@ -156,7 +156,7 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Hari" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 60.99</span>
@@ -167,7 +167,7 @@
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rental</a></p>
+						        	<p class="btn-custom"><a href="https://wa.me/6281378888410?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Bulan" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
 							        		<span class="num"><small class="currency">$</small> 995.99</span>

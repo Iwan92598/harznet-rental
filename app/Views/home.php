@@ -1,6 +1,6 @@
 <?= $this->extend('layouts/templates'); ?>
 <?= $this->section('content'); ?>
-<div class="hero-wrap ftco-degree-bg" style="background-image: url('<?= base_url("assets/images/bg_1.jpg") ?>');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap ftco-degree-bg"+ style="background-image: url('<?= base_url("assets/images/car-1.png") ?>');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 	<div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
@@ -32,6 +32,11 @@
 					<div class="col-md-4 d-flex align-items-center">
 						<form action="#" class="request-form ftco-animate bg-primary">
 							<h2>Pesan Kendaraan Anda</h2>
+
+							<div class="form-group">
+								<label for="" class="label">Nama Lengkap</label>
+								<input type="text" class="form-control" value="" placeholder="Masukkan Nama Lengkap Anda" required>
+							</div>
 
 							<div class="form-group">
 								<label for="" class="label">Lokasi Pengambilan</label>
@@ -114,7 +119,7 @@
 							</div>
 
 							<p>
-								<a href="#" class="btn btn-primary py-3 px-4">
+								<a href="<?= base_url('pricing') ?>" class="btn btn-primary py-3 px-4">
 									Pesan Mobil Sekarang
 								</a>
 							</p>

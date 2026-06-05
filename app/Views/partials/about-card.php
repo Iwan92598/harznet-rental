@@ -12,7 +12,7 @@
           <p>Dengan komitmen memberikan pelayanan terbaik, kami memastikan setiap pelanggan mendapatkan pengalaman berkendara yang mudah, aman, dan menyenangkan. Didukung oleh tim yang berpengalaman serta armada yang selalu dalam kondisi prima, HARZNET siap menjadi mitra perjalanan terpercaya Anda.</p>
           <p>Kami percaya bahwa setiap perjalanan memiliki cerita dan tujuan yang berharga. Oleh karena itu, kami terus berupaya menghadirkan layanan yang fleksibel, harga yang kompetitif, serta proses pemesanan yang cepat dan praktis.</p>
           <p>Bersama HARZNET, Anda dapat menjelajahi berbagai destinasi dengan lebih leluasa, menikmati perjalanan tanpa khawatir, dan menciptakan momen-momen berkesan di setiap kilometer perjalanan.</p>
-          <p><a href="#" class="btn btn-primary py-3 px-4">Cari Kendaraan</a></p>
+          <p><a href="<?= base_url('cars') ?>" class="btn btn-primary py-3 px-4">Cari Kendaraan</a></p>
         </div>
       </div>
     </div>

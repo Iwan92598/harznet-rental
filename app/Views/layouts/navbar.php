@@ -42,12 +42,3 @@
 </div>
 </nav>
     <!-- END nav -->
-
-    <!-- car -->
-    <!-- about -->
-    <!-- blog-single -->
-    <!-- blog -->
-    <!-- car-single -->
-     <!-- contact -->
-     <!-- pricing -->
-    <!-- services -->

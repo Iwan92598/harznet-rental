@@ -13,7 +13,7 @@
             </p>
         </div>
             <p class="d-flex mb-0 d-block">
-            <a href="#" class="btn btn-primary py-2 mr-1">
+            <a href="<?= base_url('pricing') ?>" class="btn btn-primary py-2 mr-1">
                 Booking
             </a>
 
