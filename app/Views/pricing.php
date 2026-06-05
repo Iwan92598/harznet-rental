@@ -52,7 +52,7 @@
 						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Jam" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 35.000</span> 
+							        		<span class="num"><small class="currency">Rp</small> 35</span> 
 							        		<span class="per">/per Jam</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
@@ -63,7 +63,7 @@
 						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Hari" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 350.000</span>
+							        		<span class="num"><small class="currency">Rp</small> 350</span>
 							        		<span class="per">/per Hari</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
@@ -100,7 +100,7 @@
 						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Jam" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 35.000</span>
+							        		<span class="num"><small class="currency"></small> 35</span>
 							        		<span class="per">/per Jam</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
@@ -111,7 +111,7 @@
 						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Hari" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 400.000</span>
+							        		<span class="num"><small class="currency"></small> 400</span>
 							        		<span class="per">/per Hari</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
@@ -148,7 +148,7 @@
 						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Jam" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 35.000</span>
+							        		<span class="num"><small class="currency">Rp</small> 35</span>
 							        		<span class="per">/per Jam</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
@@ -159,7 +159,7 @@
 						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Hari" target="_blank">Rental</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 650.000</span>
+							        		<span class="num"><small class="currency">Rp</small> 650</span>
 							        		<span class="per">/per Hari</span>
 							        	</h3>
 							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->

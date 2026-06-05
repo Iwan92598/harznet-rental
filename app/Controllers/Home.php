@@ -84,6 +84,18 @@ class Home extends BaseController
             'fuel' => 'Bensin',
             'luggage' => '5 Bags',
             'mileage' => '30.000'
+        ],
+        [
+            'id' => 4,
+            'nama' => 'Daihatsu Sigra Putih 2023',
+            'merek' => 'Daihatsu',
+            'harga' => 300,
+            'gambar' => 'car-4.jpg',
+            'transmisi' => 'Manual',
+            'seat' => '7 Adults',
+            'fuel' => 'Bensin',
+            'luggage' => '5 Bags',
+            'mileage' => '30.000'
         ]
     ];
 
