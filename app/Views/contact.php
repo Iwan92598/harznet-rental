@@ -35,7 +35,7 @@
 			          	<div class="icon mr-3">
 			          		<span class="icon-mobile-phone"></span>
 			          	</div>
-			            <p><span>Phone:</span> <a href="tel://1234567920"> 0813-7888-8410</a></p>
+			            <p><span>Phone:</span> <a href="<?= base_url('https://wa.me/085168822220') ?>" target="_blank"> 085168822220</a></p>
 			          </div>
 		          </div>
 		          <div class="col-md-12">
@@ -43,7 +43,7 @@
 			          	<div class="icon mr-3">
 			          		<span class="icon-envelope-o"></span>
 			          	</div>
-			            <p><span>Email:</span> <a href="mailto:info@yoursite.com"> customer_service@harznet.com</a></p>
+			            <p><span>Email:</span> <a href="<?= base_url('mailto:customer_service@harznet.com') ?>" target="_blank"> customer_service@harznet.com</a></p>
 			          </div>
 		          </div>
 		        </div>

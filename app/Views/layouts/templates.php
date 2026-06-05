@@ -73,7 +73,7 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Perumahan Green Simangu 3, Jl. Simangu, Blok B No 19, Kasugengan Lor, Kec. Depok, Kabupaten Cirebon, Jawa Barat 45155</span></li>
-	                <li><a href="<?= base_url('https://wa.me/081378888410') ?>"><span class="icon icon-phone"></span><span class="text">0813-7888-8410</span></a></li>
+	                <li><a href="<?= base_url('https://wa.me/085168822220') ?>"><span class="icon icon-phone"></span><span class="text">085168822220</span></a></li>
 	                <li><a href="<?= base_url('mailto:customer_service@harznet.com') ?>"><span class="icon icon-envelope"></span><span class="text">customer_service@harznet.com</span></a></li>
 	              </ul>
 	            </div>
