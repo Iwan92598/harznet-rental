@@ -4,6 +4,10 @@
     <title><?= $title; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Harznet Rental menyediakan layanan sewa mobil harian, mingguan, dan bulanan dengan harga terjangkau dan armada terbaik.">
+    <meta name="keywords" content="rental mobil, sewa mobil, car rental, rental mobil cirebon, sewa mobil cirebon, rental mobil murah, harznet rental, rental kendaraan, sewa mobil harian, sewa mobil bulanan">
+    <meta name="author" content="Harznet Rental">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
