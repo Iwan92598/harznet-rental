@@ -25,10 +25,6 @@
 <?= $this->include('layouts/navbar'); ?>
 <?=  $this->renderSection('content'); ?>
 
-
-
-
-<!-- <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>"> -->
 <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -76,6 +72,24 @@
 	                <li><a href="<?= 'https://wa.me/085168822220' ?>" target="_blank"><span class="icon icon-phone"></span><span class="text">085168822220</span></a></li>
 	                <li><a href="<?= base_url('mailto:customer_service@harznet.com') ?>" target="_blank"><span class="icon icon-envelope"></span><span class="text">customer_service@harznet.com</span></a></li>
 	              </ul>
+
+                <div class="mt-3">
+                  <iframe
+                      src="https://maps.google.com/maps?q=-6.7106954,108.4602932&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                      width="100%"
+                      height="180"
+                      style="border:0;border-radius:8px;"
+                      loading="lazy"
+                      allowfullscreen>
+                  </iframe>
+
+                  <a href="https://www.google.com/maps?q=-6.7107622,108.4600285"
+                    target="_blank"
+                    class="d-block mt-2">
+                      📍 Buka di Google Maps
+                  </a>
+              </div>
+                
 	            </div>
             </div>
           </div>
