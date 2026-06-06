@@ -30,21 +30,47 @@
 			<?php endforeach; ?>
 			
 		</div>
-		<div class="row mt-5">
-		<div class="col text-center">
-		<div class="block-27">
-			<ul>
-			<li><a href="#">&lt;</a></li>
-			<li class="active"><span>1</span></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li><a href="#">4</a></li>
-			<li><a href="#">5</a></li>
-			<li><a href="#">&gt;</a></li>
-			</ul>
-		</div>
-		</div>
-	</div>
+			<div class="row mt-5">
+				<div class="col text-center">
+					<div class="block-27">
+						<ul>
+
+							<?php if ($currentPage > 1): ?>
+								<li>
+									<a href="?page=<?= $currentPage - 1 ?>">
+										&lt;
+									</a>
+								</li>
+							<?php endif; ?>
+
+							<?php for ($i = 1; $i <= $totalPages; $i++): ?>
+
+								<li class="<?= ($i == $currentPage) ? 'active' : '' ?>">
+
+									<?php if ($i == $currentPage): ?>
+										<span><?= $i ?></span>
+									<?php else: ?>
+										<a href="?page=<?= $i ?>">
+											<?= $i ?>
+										</a>
+									<?php endif; ?>
+
+								</li>
+
+							<?php endfor; ?>
+
+							<?php if ($currentPage < $totalPages): ?>
+								<li>
+									<a href="?page=<?= $currentPage + 1 ?>">
+										&gt;
+									</a>
+								</li>
+							<?php endif; ?>
+
+						</ul>
+					</div>
+				</div>
+			</div>
 	</div>
 </section>
 <?= $this->endSection(); ?>

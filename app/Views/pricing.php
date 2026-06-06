@@ -34,152 +34,95 @@
 						      </tr>
 						    </thead>
 						    <tbody>
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(<?= base_url("assets/images/car-1.png") ?>);"></div></td>
-						        <td class="product-name">
-						        	<h3>Honda Brio Merah</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Jam" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 35</span> 
-							        		<span class="per">/per Jam</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-						        	</div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Hari" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 350</span>
-							        		<span class="per">/per Hari</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-						        </div>
-						        </td>
+								<?php foreach ($mobil as $m): ?>
+									<tr>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Brio%20Merah%20Beberapa%20Minggu" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> Coming Soon</span>
-							        		<span class="per">/per Minggu</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+										<td class="car-image">
+											<div class="img"
+												style="background-image:url('<?= base_url('assets/images/' . $m['gambar']) ?>');">
+											</div>
+										</td>
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(<?= base_url("assets/images/car-2.jpg") ?>);"></div></td>
-						        <td class="product-name">
-						        	<h3>Honda BR-V Hitam 2024</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Jam" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency"></small> 35</span>
-							        		<span class="per">/per Jam</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Hari" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency"></small> 400</span>
-							        		<span class="per">/per Hari</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
+										<td class="product-name">
+											<h3><?= esc($m['nama']) ?></h3>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20BR-V%20Beberapa%20Bulan" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> Coming Soon</span>
-							        		<span class="per">/per Minggu</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+											<p class="mb-0 rated">
+												<span>rated:</span>
+												<span class="ion-ios-star"></span>
+												<span class="ion-ios-star"></span>
+												<span class="ion-ios-star"></span>
+												<span class="ion-ios-star"></span>
+												<span class="ion-ios-star"></span>
+											</p>
+										</td>
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(<?= base_url("assets/images/car-3.png") ?>);"></div></td>
-						        <td class="product-name">
-						        	<h3>Toyota Innova Reborn Putih</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Jam" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 35</span>
-							        		<span class="per">/per Jam</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Hari" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> 650</span>
-							        		<span class="per">/per Hari</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
+										<!-- PER JAM -->
+										<td class="price">
+											<p class="btn-custom">
+												<a href="https://wa.me/6285168822220?text=Saya%20ingin%20rental%20<?= urlencode($m['nama']) ?>%20Beberapa%20jam"
+												target="_blank">
+													Rental
+												</a>
+											</p>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="https://wa.me/6285168822220?text=Saya%20rental%20mobil%20Innova%20Reborn%20Beberapa%20Minggu" target="_blank">Rental</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">Rp</small> Coming Soon</span>
-							        		<span class="per">/per Minggu</span>
-							        	</h3>
-							        	<!-- <span class="subheading">$3/hour fuel surcharges</span> -->
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+											<div class="price-rate">
+												<h3>
+													<span class="num">
+														<span class="currency">Rp </span>
+														<?= number_format($m['harga_per_jam'], 0, ',', '.') ?>
+													</span>
+													<span class="per">/per Jam</span>
+												</h3>
+											</div>
+										</td>
 
+										<!-- PER HARI -->
+										<td class="price">
+											<p class="btn-custom">
+												<a href="https://wa.me/6285168822220?text=Saya%20ingin%20rental%20<?= urlencode($m['nama']) ?>%20Beberapa%20Hari"
+												target="_blank">
+													Rental
+												</a>
+											</p>
 
+											<div class="price-rate">
+												<h3>
+													<span class="num">
+														<span class="currency">Rp </span>
+														<?= number_format($m['harga_per_hari'], 0, ',', '.') ?>
+													</span>
+													<span class="per">/per Hari</span>
+												</h3>
+											</div>
+										</td>
 
+										<!-- PER MINGGU -->
+										<td class="price">
+											<p class="btn-custom">
+												<a href="https://wa.me/6285168822220?text=Saya%20ingin%20rental%20<?= urlencode($m['nama']) ?>%20Beberapa%20Minggu"
+												target="_blank">
+													Rental
+												</a>
+											</p>
+
+											<div class="price-rate">
+												<h3>
+													<span class="num">
+														<?php if ($m['harga_per_minggu'] > 0): ?>
+															<span class="currency">Rp </span>
+															<?= number_format($m['harga_per_minggu'], 0, ',', '.') ?>
+														<?php else: ?>
+															Coming Soon
+														<?php endif; ?>
+													</span>
+													<span class="per">/per Minggu</span>
+												</h3>
+											</div>
+										</td>
+
+									</tr>
+
+							  <?php endforeach; ?>
 						    </tbody>
 						  </table>
 					  </div>

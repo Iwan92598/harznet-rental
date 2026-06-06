@@ -25,12 +25,13 @@
         </div>
         <div class="row">          
 
-			<?php foreach ($mobils as $m): ?>
+    <?php foreach ($mobils as $m): ?>
         <div class="col-md-4">
-				<?php if ($m['id'] == $mobil['id']) continue; ?>        
-				<?= view('partials/car-card', ['m' => $m]) ?>
-        </div>					
-			<?php endforeach; ?>	      		
+            <?= view('partials/car-card', ['m' => $m]) ?>
+        </div>
+    <?php endforeach; ?>
+
+      
 
         </div>		
     	</div>
